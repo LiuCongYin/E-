@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head><style type="text/css">.ps-container .ps-scrollbar-x-rail{position:absolute;bottom:3px;height:8px;border-radius:4px;opacity:0;filter:alpha(opacity=0);transition:background-color .2s linear,opacity .2s linear}.ps-container.hover .ps-scrollbar-x-rail,.ps-container:hover .ps-scrollbar-x-rail{opacity:.6;filter:alpha(opacity=60)}.ps-container .ps-scrollbar-x-rail.hover,.ps-container .ps-scrollbar-x-rail:hover{background-color:#eee;opacity:.9;filter:alpha(opacity=90)}.ps-container .ps-scrollbar-x-rail.in-scrolling{opacity:.9;filter:alpha(opacity=90)}.ps-container .ps-scrollbar-y-rail{position:absolute;right:3px;width:8px;border-radius:4px;opacity:0;filter:alpha(opacity=0);transition:background-color .2s linear,opacity .2s linear}.ps-container.hover .ps-scrollbar-y-rail,.ps-container:hover .ps-scrollbar-y-rail{opacity:.6;filter:alpha(opacity=60)}.ps-container .ps-scrollbar-y-rail.hover,.ps-container .ps-scrollbar-y-rail:hover{background-color:#eee;opacity:.9;filter:alpha(opacity=90)}.ps-container .ps-scrollbar-y-rail.in-scrolling{opacity:.9;filter:alpha(opacity=90)}.ps-container .ps-scrollbar-x{position:absolute;bottom:0;height:8px;background-color:#aaa;border-radius:4px;transition:background-color .2s linear}.ps-container.ie6 .ps-scrollbar-x{font-size:0}.ps-container .ps-scrollbar-x-rail.hover .ps-scrollbar-x,.ps-container .ps-scrollbar-x-rail:hover .ps-scrollbar-x{background-color:#999}.ps-container .ps-scrollbar-y{position:absolute;right:0;width:8px;background-color:#aaa;border-radius:4px;transition:background-color .2s linear}.ps-container.ie6 .ps-scrollbar-y{font-size:0}.ps-container .ps-scrollbar-y-rail.hover .ps-scrollbar-y,.ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y{background-color:#999}.ps-container.ie .ps-scrollbar-x,.ps-container.ie .ps-scrollbar-y{visibility:hidden}.ps-container.ie.hover .ps-scrollbar-x,.ps-container.ie.hover .ps-scrollbar-y,.ps-container.ie:hover .ps-scrollbar-x,.ps-container.ie:hover .ps-scrollbar-y{visibility:visible}</style>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+	    <meta name="renderer" content="webkit">
+	    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	    <title>
+	        课程列表 - 工程实践教育平台
+	    </title>
+	    <link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/icur_main.css" />
+		<link rel="stylesheet" type="text/css" href="css/icur_base.css" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main1.css" />
+		<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	    <style>
+	        #kind_list li{float:left;}
+	        #kind_list li.active a { color: #4bbbfa !important; }
+	    </style>
+	
+	</head>
+	<body class="es-main-blue-light es-nav-white">
+	    <div class="es-wrap icur-course">
+	<link href="/assets/css/font-awesome.min.css?1.2.0" rel="stylesheet">
+	<script src="/static-dist/app/js/auth/login/login-out.js"></script>
+	<header class="es-header large no-highlight navbar">
+	            <div class="container">
+	                <a href="/" class="navbar-brand hidden-xs ">
+	                    <img src="img/logo1.png" title="logo">
+	                </a>
+	            <nav class="collapse navbar-collapse">
+	                <ul class="nav nav-tabs clearfix hidden-xs " id="nav">
+	                    <!--engineering-->
+	                    <li>
+	                        <a href="/">首页</a>
+	                    </li> 
+	                    <li>
+	                        <a href="/">育人项目 </a>
+	                    </li>
+	                    <li>
+	                        <a href="/">课程资源</a>
+	                    </li>
+	                    <li>
+	                        <a href="/">工程实践 </a>
+	                    </li>
+	                    <li>
+	                        <a href="/">师资力量</a>
+	                    </li>
+	                <div class="navbar-user">
+	                <form class="navbar-form pull-left header-search hidden-sm hidden-xs" role="search" action="/" method="get">
+	                    <div class="form-group">
+	                        <div id="search-left" class="pull-left search-left">
+	                            <input class="form-control js-search" name="keyword" placeholder="输入要查找的内容" autocomplete="off">
+	                        </div>
+	                        <input name="type" value="course" type="hidden">
+	                        <button class="button fa fa-search" type="submit"></button>
+	                    </div>
+	                </form>
+	                    
+	                    <ul class="nav user-nav">
+	                       
+	                        <li class=""><a href="/login/login.html">登录</a></li>
+	                        
+	                    </ul>
+	                    
+	                </div>
+	            </nav>
+	            </div>
+	            
+	</header>
+	<div style="clear:both;"></div>
+	        <section class="container">
+	            <div class="search-box">
+	                <div class="input-group">
+	                    <input type="text" class="form-control" name="keyword" id="keyword" value="" placeholder="输入关键词，如：“英语”">
+	                    <span class="input-group-btn">
+	                        <button class="btn btn-default" onclick="search()" type="button">搜索</button>
+	                    </span>
+	                </div>
+	            </div>
+	            <div class="category-box bg-white">
+	                <div class="category-title">
+	                    <ul id="kind_list" class="nav-list borderbdashed clearfix margin0 item "> 
+	                        <li class="active" data-practicetype="1"><a href="javascript:;" onclick="setKind(this)">专业技术认知实习</a></li>
+	                        <li data-practicetype="2"><a href="javascript:;" onclick="setKind(this)">项目应用设计实践</a></li>
+	                        <li data-practicetype="3"><a href="javascript:;" onclick="setKind(this)">专业方向项目实训</a></li>
+	                        <li data-practicetype="4"><a href="javascript:;" onclick="setKind(this)">企业综合项目实训</a></li>
+	                    </ul> 
+	                    <p>全部课程</p>
+	                    <ul class="category-active-list">
+	                         
+	                    </ul>
+	                </div>
+	                <ul class="category-list" style="height: 138px;">
+	                    <!--取得html字符串-->
+	                    <li><span>标签：</span><ul class="item" id="tags_list"><li class="active"><a href="/engineering/show-0-0-1/new.html?keyword=&amp;rating=0&amp;practice_type=1&amp;is_practice=1">全部</a></li><li><a href="/engineering/show-0-33-1/new.html?keyword=&amp;rating=0&amp;practice_type=1&amp;is_practice=1">2019-2020-1-2</a></li><li><a href="/engineering/show-0-32-1/new.html?keyword=&amp;rating=0&amp;practice_type=1&amp;is_practice=1">2019-2020-1-1</a></li><li><a href="/engineering/show-0-31-1/new.html?keyword=&amp;rating=0&amp;practice_type=1&amp;is_practice=1">2018-2019-2-1</a></li><li><a href="/engineering/show-0-29-1/new.html?keyword=&amp;rating=0&amp;practice_type=1&amp;is_practice=1">2018-2019-1-1</a></li><li><a href="/engineering/show-0-28-1/new.html?keyword=&amp;rating=0&amp;practice_type=1&amp;is_practice=1">实习实训</a></li><li><a href="/engineering/show-0-27-1/new.html?keyword=&amp;rating=0&amp;practice_type=1&amp;is_practice=1">课程资源</a></li></ul></li>
+	                    <!--取得html字符串-->
+	                    <li><span>类别：</span><ul class="item"><li class="active"><a href="/engineering/show-0-0-1/new.html">全部</a></li><li><a href="/engineering/show-24-0-1/new.html">企业技术课</a></li><li><a href="/engineering/show-25-0-1/new.html">大学先修课</a></li><li><a href="/engineering/show-26-0-1/new.html">企业工程实践</a></li><li><a href="/engineering/show-53-0-1/new.html">学科通识课</a></li><li><a href="/engineering/show-108-0-1/new.html">专家校园行</a></li></ul></li>
+	                    <li>
+	                        <span>评级：</span>
+	                        <ul id="rating_list" class="item">
+	                            <li class="active" data-rating="0"><a href="javascript:;" onclick="setRating(this)">全部</a></li>
+	                            <li data-rating="40"><a href="javascript:;" onclick="setRating(this)">40分以上</a></li>
+	                            <li data-rating="60"><a href="javascript:;" onclick="setRating(this)">60分以上</a></li>
+	                            <li data-rating="80"><a href="javascript:;" onclick="setRating(this)">80分以上</a></li>
+	                            <li data-rating="100"><a href="javascript:;" onclick="setRating(this)">100分</a></li>
+	                        </ul>
+	                    </li>
+	                    <li>
+	                        <span>排序：</span>
+	                        <ul class="item">
+	                            <li class="active">
+	                                <a href="/engineering/show-0-0-1/new.html?keyword=&amp;rating=0&amp;practice_type=1&amp;is_practice=1">
+	                                    全部
+	                                </a>
+	                            </li>
+	                            <li>
+	                                <a href="/engineering/show-0-0-1/hit.html?keyword=&amp;rating=0&amp;practice_type=1&amp;is_practice=1">
+	                                    最热
+	                                </a>
+	                            </li>
+	                            <li>
+	                                <a href="/engineering/show-0-0-1/rec.html?keyword=&amp;rating=0&amp;practice_type=1&amp;is_practice=1">
+	                                    推荐
+	                                </a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                </ul>
+	                <div class="category-btn more">
+	                    <a class="#">更多条件&nbsp;<i class="es-icon es-icon-arrowdropdown"></i></a>
+	                </div>
+	            </div>
+	            <div class="course-container bg-white">
+	                <div class="course-list">
+	                    <div class="row">
+							
+						</div>
+	                <nav class="text-center">
+	                    <ul class="pagination"><li><a>共336记录</a></li><li class="disabled"><a>«</a></li><li class="active"><a>1</a></li><li><a href="/engineering/show-0-0-2.html?keyword=&amp;rating=0&amp;practice_type=1&amp;is_practice=1">2</a></li><li><a href="/engineering/show-0-0-3.html?keyword=&amp;rating=0&amp;practice_type=1&amp;is_practice=1">3</a></li><li><a href="/engineering/show-0-0-4.html?keyword=&amp;rating=0&amp;practice_type=1&amp;is_practice=1">4</a></li><li><a>...</a></li><li><a href="/engineering/show-0-0-17.html?keyword=&amp;rating=0&amp;practice_type=1&amp;is_practice=1">17</a></li><li><a href="/engineering/show-0-0-2.html?keyword=&amp;rating=0&amp;practice_type=1&amp;is_practice=1">»</a></li></ul>
+	                </nav>
+	            </div>
+	        </section>
+	
+	        <div class="es-footer-link">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-md-12 footer-main clearfix">
+	                        <div class="col-md-8 footer-main clearfix">
+	                            <h3>天软专业方向咨讯微信公众号</h3>
+	                            <h3>您可以通过“天软专业方向资讯”即时感知专业方向动态、合作培养单位情况、实习实训优秀成果等信息。请用微信扫描右方二维码或在微信查找公众号“tjise_zyfx”添加关注。</h3>
+	                        </div>
+	                        <div class="col-md-4 text-center footer-main clearfix">
+	                            <img src="/themes/default-a/img/qr_code.jpg" width="100">
+	                        </div>
+	                    </div>
+	
+	                </div>
+	            </div>
+	        </div>
+	        <footer class="es-footer">
+	            <div class="copyright">
+	                <div class="container">
+	                    版权所有 天津市大学软件学院  Copyright 2009 - 2019. tjise.edu.cn All Rights Reserved.
+	                    <div class="mts">
+	                    </div>
+	                </div>
+	            </div>
+	        </footer>
+	        <div class="footer-tool-bar">
+	            <div class="">
+	                <a href="/">
+	                    <i class="es-icon es-icon-home1"></i><br>
+	                    首页
+	                </a>
+	            </div>
+	            <div class="">
+	                <a href="/course-set/show-0.html">
+	                    <i class="es-icon es-icon-newshot"></i><br>
+	                    课程
+	                </a>
+	            </div>
+	            <div class="">
+	                <a href="/article/0.html">
+	                    <i class="es-icon es-icon-write"></i><br>
+	                    资讯
+	                </a>
+	            </div>
+	        </div>
+	
+	    </div>
+	
+	    <div class="es-bar hidden-xs">
+	    <!-- 左侧列表 -->
+	    <div class="es-bar-menu">
+	        <ul class="bar-menu-top">
+	            
+	            <li id="login">
+	                <a href="/login/login.html">
+	                    学<br>习<br>中<br>心<br><br>请<br>登<br>录<br><br>
+	                </a>
+	            </li>
+	            
+	        </ul>
+	        <ul class="bar-menu-sns">
+	            <li class="go-top" style="margin:-10px auto 0 auto;" data-toggle="tooltip" data-placement="left" title="" data-trigger="hover" data-container=".es-bar" data-original-title="回到顶端">
+	                <a href="javascript:;">
+	                    <i class="es-icon es-icon-keyboardarrowup" style="margin-bottom:-8px"></i>
+	                    <span class="text-sm">TOP</span>
+	                </a>
+	            </li>
+	        </ul>
+	    </div>
+	    <!-- 列表内容 -->
+	    
+	</div>
+	<style>
+	    .ps-container{overflow:auto!important}
+	</style>
+	 </body>
+</html>
