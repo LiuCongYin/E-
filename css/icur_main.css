@@ -1,0 +1,211 @@
+.icur-course{background:url(../img/bg-blue.png) no-repeat;background-size:100% 250px;background-position:0 60px}
+.bg-white{background:#ffffff;margin-bottom:20px}
+.nav.nav-tabs{margin-bottom:0px}
+.es-poster{max-height:450px}
+.es-poster .swiper-slide{ background-size: 1920px;height: 450px!important; }
+.es-poster .swiper-pager{z-index:999999}
+/*===========================头像样式============================*/
+.head-portrait{height:40px;width:40px;border-radius:50%;overflow:hidden;margin:auto;}
+.head-portrait img{width:40px;}
+.section-more-btn{margin:0px}
+/*===========================头像样式============================*/
+
+/*===========================搜索框样式============================*/
+.search-box{margin:50px auto;}
+.search-box .input-group{margin:auto;max-width:700px}
+.search-box .input-group:before{font-family:es-icon!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:"\E600";color:#ffffff;position:absolute;top:9px;left:6px}
+.search-box .input-group input{background:transparent;border:2px solid #ffffff;padding:8px 10px 8px 25px;color:#ffffff;height:auto}
+.search-box .input-group input:focus{border-color:#ffffff!important}
+.search-box .input-group input::-webkit-input-placeholder{color: #ffffff!important;}
+.search-box .input-group input:-moz-placeholder{color:#ffffff!important;}
+.search-box .input-group input::-moz-placeholder{color:#ffffff!important;}
+.search-box .input-group input:-ms-input-placeholder{color:#ffffff!important;}
+.search-box .input-group .btn{color:#28910f;border-color:#ffffff;padding:9px 15px}
+.es-main-blue .search-box .input-group .btn{color:#4bbbfa;}
+.es-main-blue-light .search-box .input-group .btn{color:#0064b3;}
+.es-main-orange .search-box .input-group .btn{color:#ff7200 }
+.es-main-orange-light .search-box .input-group .btn{color:#f9b469}
+.es-main-green-light .search-box .input-group .btn{color:#81d867}
+.es-main-purple .search-box .input-group .btn{color:#807ba9}
+.es-main-purple-light .search-box .input-group .btn{color:#9e9abd}
+.es-main-red .search-box .input-group .btn{color:#cf010e}
+.es-main-red-light .search-box .input-group .btn{color:#fd5f56}
+/*===========================搜索框样式============================*/
+
+/*=====================module=====================*/
+.task-list .task-item.task-content .title{color:#444;padding:0px}
+.task-list.task-list-md .gray-dark.title{background-color:#ffffff;height:50px;line-height:31px;padding:10px 15px 10px 19px;position:relative;font-size:18px;letter-spacing:.14px;}
+.task-list.task-list-md .gray-dark.title:before{content:"";height:30px;width:4px;background-color:#28910f;position:absolute;left:0px}
+
+.task-list.task-list-md .gray-dark-small.title{background-color:#ffffff;height:40px;font-size:12px;font-weight:600;padding:13px 5px 13px 19px;position:relative;}
+.task-list.task-list-md .gray-dark-small.title:before{content:"";height:16px;width:3px;background-color:#28910f;position:absolute;left:0px}
+
+
+.task-list.task-list-md .task-item{background-color:#ffffff;}
+.task-list.task-list-hover .task-item.task-content:hover{background-color:#ffffff;transition:all .3s ease-in-out}
+.task-list.task-list-md .task-item.js-task-chapter{margin:15px 0 0 0;}
+.task-list.task-list-md .task-item.task-content{margin:0px;padding:20px;border-top:1px solid #eeeeee;overflow:auto}
+.task-list.task-list-md .right-menu{top:18px;font-size:16px;line-height:16px;cursor:pointer}
+
+.task-list.task-list-md .task-item-nav{position:absolute;margin-top:-30px;z-index:9}
+.task-list.task-list-md .task-item-nav.visible-xs{margin-top:-47px;}
+.task-list.task-list-md .task-item-nav.visible-xs .title-nav{margin-left:5px;}
+.task-list.task-list-md .task-item-nav.visible-xs .navbar-nav>li>.dropdown-menu{margin-left:-20px;background:rgba(204,204,204,.8)!important}
+
+.es-main-blue .task-list.task-list-md .gray-dark.title:before,.es-main-blue .task-list.task-list-md .gray-dark-small.title:before{background-color:#0081e6 ;}
+.es-main-blue-light .task-list.task-list-md .gray-dark.title:before,.es-main-blue-light .task-list.task-list-md .gray-dark-small.title:before{background-color:#4bbbfa;}
+.es-main-orange .task-list.task-list-md .gray-dark.title:before,.es-main-orange .task-list.task-list-md .gray-dark-small.title:before{background-color:#ff7200 ;}
+.es-main-orange-light .task-list.task-list-md .gray-dark.title:before,.es-main-orange-light .task-list.task-list-md .gray-dark-small.title:before{background-color:#f9b469;}
+.es-main-green-light .task-list.task-list-md .gray-dark.title:before,.es-main-green-light .task-list.task-list-md .gray-dark-small.title:before{background-color:#81d867;}
+.es-main-purple .task-list.task-list-md .gray-dark.title:before,.es-main-purple .task-list.task-list-md .gray-dark-small.title:before{background-color:#807ba9;}
+.es-main-purple-light .task-list.task-list-md .gray-dark.title:before,.es-main-purple-light .task-list.task-list-md .gray-dark-small.title:before{background-color:#9e9abd;}
+.es-main-red .task-list.task-list-md .gray-dark.title:before,.es-main-red .task-list.task-list-md .gray-dark-small.title:before{background-color:#cf010e;}
+.es-main-red-light .task-list.task-list-md .gray-dark.title:before,.es-main-red-light .task-list.task-list-md .gray-dark-small.title:before{background-color:#fd5f56;}
+/*=====================module=====================*/
+
+/*=====================我的课程&&公共课=====================*/
+.course-container{}
+.course-container .es-filter{padding:12px 20px;border-bottom:1px solid #eeeeee;background:#ffffff}
+.course-container .es-filter .nav-sort>li>a{height:auto;padding:5px 10px}
+.course-container .es-filter .nav-sort>li>a.active{border-radius:5px}
+.course-container .course-list{padding:20px}
+
+.course-list{}
+.course-list .course-item{z-index:0}
+.course-list .course-item .course-img{border-radius:0px;position:relative;}
+.course-list .course-item .course-img .img-responsive{padding:0px}
+.course-list .course-item .head-portrait{position:absolute;z-index:2;left:10px;bottom:10px;}
+.course-list .course-item .item-title{padding:2px 10px 2px 60px;background-color:rgba(0,0,0,.5);width:100%;position:absolute;z-index:1;left:0px;bottom:15px;}
+.course-list .course-item .item-title .link-dark{line-height:2em; color:#ffffff!important;font-size:14px;overflow : hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
+.course-list .course-item .metas i.es-icon-star{margin:0px}
+.course-list .course-item .tags-right {position: absolute;top: 0;right: 0;}
+.course-list .course-item .tags-right .tag-recommend {display: inline-block;width: 40px;height: 50px;background: url("../img/tag_recommend_right.png") no-repeat;}
+.title-nav{margin-left:100px;}
+.title-nav.nav-btn-tab{border-bottom:0px;margin-bottom:0px}
+.title-nav .nav.nav-tabs>li>a{font-size:14px;padding:8px 10px;margin-top:-8px;line-height:22px}
+
+/*=====================我的课程&&公共课=====================*/
+
+/*=====================课程推荐    recommend-course=====================*/
+.carousel .carousel-inner .item>img{width:100%;height:100%}
+.carousel .carousel-control{top:35%;width:25px;height:30px}
+
+.carousel-detail{background:#1c88a3;width:100%;height:160px;padding:10px;color:#ffffff;position:relative;margin-bottom:20px}
+.carousel-detail .head-portrait{height:50px;width:50px;position:absolute;top:-25px;right:10px;}
+.carousel-detail .head-portrait img{width:50px!important;}
+.carousel-detail p{line-height:23px;overflow : hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;}
+
+.recommend-course{}
+.course-detail{overflow:hidden;margin-top:0px;cursor:pointer}
+
+.course-img-cover{float:left;width:100%;min-width:180px;position:relative}
+.course-img-cover img{width:100%}
+.course-img-cover .course-title{padding:2px 10px 2px 60px;background-color:rgba(0,0,0,.3);width:100%;position:absolute;z-index:1;left:0px;bottom:-5px;}
+.course-img-cover .course-title a{color:#ffffff!important}
+.course-content{float:left;width:100%;padding:0;line-height:23px;overflow : hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 6;-webkit-box-orient: vertical;}
+
+.comment-detail{overflow:hidden;}
+.comment-detail .nav-btn-tab{border-bottom:0px;position:absolute}
+.comment-detail .nav-tabs-box.nav>li, .comment-detail .nav-tabs-box.nav>li>a{z-index:2}
+.comment-detail .nav-tabs-box.nav.nav-tabs>li>a{padding:5px 15px;background:transparent}
+.comment-detail .nav-tabs-box.nav.nav-tabs>li:hover>a,.comment-detail .nav-tabs-box.nav.nav-tabs>li.active>a{color:#ffffff;}
+.comment-detail .nav-tabs-box.nav.nav-tabs .highlight{background:#7ed321;height:32px;border:0px;border-radius:30px;z-index:0!important}
+.comment-detail .tab-content{margin-top:52px}
+
+@media (max-width:420px){
+    .comment-detail .nav-tabs-box.nav.nav-tabs>li.active>a{background:#7ed321;border-radius:30px;color:#ffffff}
+}
+
+.course-detail:hover,.comment-detail .comment-list li .comment-li:hover{transition:all .3s ease-in;-webkit-box-shadow:0 13px 20px -12px rgba(0,36,100,.3);-moz-box-shadow:0 13px 20px -12px rgba(0,36,100,.3);box-shadow:0 13px 20px -12px rgba(0,36,100,.3);-webkit-transform:translateY(-3px);-moz-transform:translateY(-3px);transform:translateY(-3px)}
+
+.comment-detail .comment-list{margin:1px;overflow:hidden}
+.comment-detail .comment-list li{padding:3px 10px 10px 0;}
+.comment-detail .comment-list li .comment-li{border:1px solid #eee;overflow:hidden;padding:9px 0;border-radius:2px;cursor:pointer;}
+.comment-detail .comment-list li .comment-li .tip{float:left;width:30%;text-align:center}
+.comment-detail .comment-list li .comment-li .tip p{margin:0px;font-size:12px;}
+.comment-detail .comment-list li .comment-li .details{float:left;width:70%;padding-right:10px}
+.comment-detail .comment-list li .comment-li .details h3{margin:0px}
+.comment-detail .comment-list li .comment-li .details p{font-size:12px;color:#999;margin-bottom:0px}
+.comment-detail .comment-list li .comment-li .details .content{line-height:23px;overflow : hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+/*=====================课程推荐    recommend-course=====================*/
+
+/*=====================parter-nav-list=====================*/
+.parter-nav{margin-bottom:20px}
+.parter-nav-list{overflow:hidden}
+.parter-nav-list li{float:left;margin:5px 10px 5px 0px;border:1px solid #f8f8f8;background: #f8f8f8;border-radius:2px;overflow : hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;padding:5px 0px;}
+.parter-nav-list li a{padding:5px 10px;color:#333333;font-size:14px}
+.parter-nav-list li:hover{border-color:#28910f;transition:all .3s ease-in-out}
+.parter-nav-list li:hover a{color:#28910f;transition:all .3s ease-in-out}
+.parter-nav-list li.active {border-color:#28910f;transition:all .3s ease-in-out}
+.parter-nav-list li.active a{color:#28910f;transition:all .3s ease-in-out}
+/*=====================parter-nav-list=====================*/
+
+/*=====================校园排名=====================*/
+.rank-box{border-right:1px dashed #eee;margin-bottom:30px;}
+.rank-box:last-child{border-right:0px}
+.rank-box .rank-title{text-align:center;margin:10px 0 30px 0;}
+.rank-box .rank-title i{content:"";background:url(../img/rank.png) no-repeat left bottom;background-position-y:4px}
+.rank-box .rank-list{overflow:hidden;position:relative}
+.rank-box .rank-list:after{content:"";width:0;height:100%;background: -webkit-radial-gradient(#eeeeee, #ffffff 70%);  background: -o-radial-gradient(#eeeeee, #ffffff 70%);background: -moz-radial-gradient(#eeeeee, #ffffff 70%); background: radial-gradient(#eeeeee, #ffffff 70%); position:absolute;top:0;left:50%}
+.rank-box .rank-list:hover:after{width:100%;transition:all .3s all;}
+.rank-box .rank-list li{clear:both;height:60px;padding:5px 10px;margin:5px 0;position:relative;}
+.rank-box .rank-list li a {position:absolute;z-index:3}
+.rank-box .rank-list li:after {content:"";width:0px;height:60px;border-bottom-left-radius: 30px;border-top-left-radius: 30px;position:absolute;top:0px;right:0px;z-index:2; background: -webkit-linear-gradient(left,#eeeeee, #f9f9f9); /* Safari 5.1 - 6.0 */ background: -o-linear-gradient(right,#eeeeee, #f9f9f9); /* Opera 11.1 - 12.0 */background: -moz-linear-gradient(right,#eeeeee, #f9f9f9); /* Firefox 3.6 - 15 */background: linear-gradient(to right,#eeeeee, #f9f9f9); /* 标准的语法 */}
+.rank-box .rank-list li:hover:after {width:100%;transition:all .3s ease;}
+
+.rank-box .rank-list li h3{float:left;line-height:50px;margin:0px;}
+.rank-box .rank-list li .rank-img{float:left;border-radius:50%;position:relative;margin:5px 15px;border:2px solid #bdc6c8}
+.rank-box .rank-list li.first .rank-img{border:2px solid #f9bc08}
+.rank-box .rank-list li.first .rank-img:before{content:"";position:absolute;top:-10px;right:-8px;width:19px;height:17px;background:url(../img/rank-1.png) no-repeat}
+.rank-box .rank-list li.second .rank-img{border:2px solid #bdc6c8}
+.rank-box .rank-list li.second .rank-img:before{content:"";position:absolute;top:-10px;right:-8px;width:19px;height:17px;background:url(../img/rank-2.png) no-repeat}
+.rank-box .rank-list li.third .rank-img{border:2px solid #8b572a}
+.rank-box .rank-list li.third .rank-img:before{content:"";position:absolute;top:-10px;right:-8px;width:19px;height:17px;background:url(../img/rank-3.png) no-repeat}
+.rank-box .rank-list li .rank-content{float:left;margin:5px 0px 5px 5px;/*max-width:60%*/}
+.rank-box .rank-list li .rank-content h4{margin:3px 0;overflow : hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
+.rank-box .rank-list li .rank-content p{font-size:12px;margin-bottom:0px;color:#999}
+.rank-box .rank-list li i{position:absolute;right:10px;top:10px;z-index:10;line-height:35px;}
+
+/*=====================校园排名=====================*/
+
+/*=====================新闻公告=====================*/
+.news-list{margin-top:-20px}
+.headline{overflow:hidden;border-bottom:1px solid #f0f0f0;}
+.headline a{font-weight:400}
+.content{clear:both;}
+.content .row-4 li{margin-bottom:10px;padding:10px;height:66px;overflow:hidden;border-bottom:1px dashed #eee;cursor:pointer;position:relative}
+.content .row-4 li .date{width:55px;height:45px;position:absolute;background:#a9d0ed;color:#fff;text-align:center;border-radius:2px;font-family: arial;}
+.content .row-4 li .date i{position:absolute;top:10px;right:-4px;display:inline-block;width:0;height:0;vertical-align:middle;border-left:4px solid #a9d0ed;border-top:4px solid transparent;border-bottom:4px solid transparent;}
+.content .row-4 li .date h2{margin:0px;font-size:24px;line-height:25px;height:25px;display:block;font-weight:bold;}
+.content .row-4 li .date h3{margin:0px;font-size:12px;line-height:20px;background:#88c2e7;}
+
+.content .row-4 li .article{overflow:hidden}
+.content .row-4 li .article a{line-height:1.8em; padding-left:80px;font-size:16px;font-weight:600;overflow : hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
+.content .row-4 li .article p{line-height:22px;text-indent:5em;font-size:14px;color:#aaa;margin:0px;overflow : hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
+.content .row-4 li .article .article-img{height:64px;overflow:hidden;text-align:right;padding:0px!important}
+.content .row-4 li .article .article-img img{height:64px;}
+.content .row-4 li .time{position:absolute;right:10px;top:5px;font-size:12px ;color:#999;line-height:30px}
+
+.content .row-4 li.active .article p{overflow : hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;}
+/*=====================新闻公告=====================*/
+
+/*=====================教师推荐   recommend-teacher=====================*/
+.recommend-teacher{margin:0px;padding:0px}
+.recommend-teacher .teacher-item .title{padding:0px!important}
+/*=====================教师推荐   recommend-teacher=====================*/
+
+/*=====================footer=====================*/
+.pagination{margin-bottom:0 0 20px 0;}
+.es-footer-link,.es-footer .copyright{background:#323a45;border-color:#292c31!important}
+/*=====================footer=====================*/
+
+/*=====================课程评价滑块=====================*/    
+.review-ranger{margin-top:10px;margin-bottom:20px;}
+.review-ranger .ranger-box{width: 250px; position: relative;margin-left: 70px;}
+.review-ranger .ranger-box .value-box {position: absolute; left: 260px; top: -8px;width:100px;}
+.review-ranger .range-handle {top: -11px;height: 20px;width:20px;}
+.review-ranger .ranger-title {position: absolute;top:-10px;left:-60px;}
+.review-ranger .range-quantity { background-color: #46c37b  }
+.review-ranger .range-min {  }
+.review-ranger .range-max {  }
+/*=====================课程评价滑块=====================*/

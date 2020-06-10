@@ -1,0 +1,66 @@
+
+.main{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ width: 100%;
+}
+
+#loginbtn,#pwd,#username{
+ width: 400px;
+ height: 60px;
+ }
+ 
+ #loginbtn{
+ font-size: 17px;
+ color: #fff;
+ width: 400px;
+}
+
+
+ 
+ .qingdenglu{
+ width: 400px;
+ margin-bottom: 30px;	
+ margin-top: 50px;
+}
+
+.qingdenglu-p{
+ font-weight:bold;
+ font-size: 40px;
+ color: white;
+ }
+ 
+ .tishi{
+ width: 400px;
+ margin-left: 15px;
+ }
+ 
+ #form-group-dl{
+	 width: 400px;
+ margin-top:50px;
+ margin-left:0px;
+ 
+ }
+ 
+ .tishi-a{
+ font-size: 18px;
+ }
+ .xian{
+	 height: 66.8px;
+	 margin-top: 100px;
+	 border-top:1px  solid #5F9EA0;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+ }
+
+.xian-wz{
+	width: 980px;
+}
+ body{
+   background:url(../img/loginBg.jpg)  no-repeat center center;
+   background-size:cover;
+   background-attachment:fixed;
+}
